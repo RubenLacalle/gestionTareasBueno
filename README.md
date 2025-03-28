@@ -1,7 +1,7 @@
 # Gestor de Tareas con React
 
-[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-4.4.0-orange)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-19.0.0-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-6.2.0-orange)](https://vitejs.dev/)
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE)
 
 Aplicación para gestionar tareas con funcionalidad CRUD completa, persistencia de datos y sistema de ordenación.
