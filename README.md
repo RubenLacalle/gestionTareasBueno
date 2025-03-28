@@ -1,12 +1,25 @@
-# React + Vite
+# Gestor de Tareas con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-4.4.0-orange)](https://vitejs.dev/)
+[![Licencia](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE)
 
-Currently, two official plugins are available:
+Aplicación para gestionar tareas con funcionalidad CRUD completa, persistencia de datos y sistema de ordenación.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Características principales
 
-## Expanding the ESLint configuration
+- **Gestión completa** de tareas (Crear, Leer, Actualizar, Eliminar)
+- Campos para **nombre** y **descripción** de cada tarea
+- **Persistencia automática** en el navegador (localStorage)
+- **Ordenación** por nombre, descripción o fecha de creación
+- **Paginación** para mejor visualización
+- **Diseño responsive** que se adapta a cualquier dispositivo
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+```
