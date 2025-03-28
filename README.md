@@ -23,3 +23,43 @@ Aplicación para gestionar tareas con funcionalidad CRUD completa, persistencia 
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
 ```
+
+2. Instala las dependencias:
+
+```bash
+npm install
+```
+
+3. Inicia la aplicación:
+
+```bash
+npm run dev
+```
+
+## 🛠️ Scripts útiles
+
+| Comando           | Descripción                             |
+| ----------------- | --------------------------------------- |
+| `npm run dev`     | Inicia el servidor de desarrollo        |
+| `npm run build`   | Compila para producción                 |
+| `npm run lint`    | Ejecuta ESLint para verificar el código |
+| `npm run preview` | Previsualiza el build de producción     |
+
+## 🧩 Componentes principales
+
+- **App.jsx**:
+
+  - Gestiona el estado global
+  - Maneja la lógica principal
+  - Coordina los demás componentes
+
+- **TareaForm.jsx**:
+
+  - Formulario interactivo
+  - Validación de campos
+  - Modo edición/creación
+
+- **ListarTareas.jsx**:
+  - Tabla de tareas
+  - Paginación automática
+  - Sistema de ordenación
