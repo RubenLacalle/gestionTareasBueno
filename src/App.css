@@ -82,6 +82,22 @@ textarea {
   background-color: #c82333;
 }
 
+.btn-paginacion {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-paginacion:hover {
+  background-color: #e0e0e0;
+}
+
 /* Estilos para la tabla */
 table {
   width: 100%;
@@ -106,6 +122,13 @@ th {
 tr:hover {
   background-color: #f8f9fa;
 }
+.paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
 
 /* Estilos para mensaje cuando no hay tareas */
 td[colspan="3"] {
@@ -123,4 +146,8 @@ h2 {
 /* Otros */
 .clickeable {
   cursor: pointer;
+}
+.flecha-icono {
+  width: 16px;
+  height: 16px;
 }
